@@ -9,6 +9,7 @@
 body {
     font-family: Akshar, sans-serif;
     font-weight: 300;
+    background-color: #4fb6c7;
 }
 
 h1 {
@@ -49,4 +50,35 @@ h1 {
 
 .active {
     border-bottom: 1px solid red;
+}
+
+#main-image-container {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#main-image {
+    height: 500px;
+    width: 100%;
+    background: url("../images/pexels-fox-1038916.jpg") no-repeat center center
+}
+
+#image-text {
+    font-size: 150%;
+    font-family: Exo, sans-serif;
+    text-transform: uppercase;
+    width: 300px;
+    height: 150px;
+    padding-top: 20px;
+    background-color: rgba(241, 109, 107, .7);
+    bottom: 50px;
+    right: 150px;
+    position: absolute;
+    text-align: center;
+}
+
+#image-text h2 {
+    text-decoration: underline;
 }
