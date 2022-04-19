@@ -267,8 +267,7 @@ footer {
     bottom: 300px;
     right: 400px;
     position: absolute;
-    text-align: left;
-    padding-left: 10px;
+    text-align: center;
 }
 
 #submit {
@@ -278,8 +277,6 @@ footer {
     font-size: 120%;
     border: 1px solid black;
     text-align: center;
-    margin-left: 33%;
-    padding: 1px 4px;
 }
 
 #submit:hover {
