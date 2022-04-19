@@ -176,3 +176,18 @@ footer {
     margin: 10px;
     color: whitesmoke;
 }
+
+.social-media i:hover {
+    color: #51b8c7;
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
