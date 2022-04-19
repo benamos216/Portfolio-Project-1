@@ -191,3 +191,52 @@ footer {
 #photos > img {
     width: 100%;
 }
+
+#games-header {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 300%;
+    margin-bottom: 30px;
+}
+
+#games {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#games div {
+    color: whitesmoke;
+    width: 33%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    box-sizing: border-box;
+}
+
+#join-image-container {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#join-image {
+    height: 800px;
+    width: 100%;
+    background: url("../images/pexels-alena-darmel-7862491(1).jpg") no-repeat center;
+}
+
+#sign-up {
+    font-size: 150%;
+    font-family: Exo, sans-serif;
+    text-transform: uppercase;
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+    background-color: rgba(81, 184, 199, .5);
+    bottom: 300px;
+    right: 400px;
+    position: absolute;
+    text-align: center;
+}
