@@ -92,15 +92,35 @@ h1, h2 {
 #club-header {
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 300%;
+}
+
+#left-header {
+    width: 33%;
+    float: left;
+    padding-top: 30px;
+}
+
+#right-header {
+    width: 33%;
+    float: right;
+    padding-top: 30px;
+}
+
+#center-header-main {
+    width: 33%;
+    margin: 0 auto;
 }
 
 .left-header {
-    float: left;
+    float: right;
     margin: 30px;
+    text-align: right;
 }
 
 .right-header {
-    float: right;
+    float: left;
     margin: 30px;
 }
 
@@ -108,4 +128,32 @@ hr {
     border-top: 1px solid whitesmoke;
     width: 100%;
     margin: 5px 0
+}
+
+#center-header {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 1px;
+    border: 100%;
+    margin: 0 auto;
+}
+
+#center-image {
+    background: url("../images/pexels-cottonbro-3945683.jpg");
+    height: 100%;
+    border: 100%;
+}
+
+#times div {
+    color: whitesmoke;
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    box-sizing: border-box;
 }
