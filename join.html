@@ -31,9 +31,26 @@
     </header>
     <section id="join-image-container">
         <div id="join-image"></div>
-        <div id="sign-up">
-
-        </div>
+        <form id="sign-up"action="https://www.sendmydatahere.com" method="post">
+            <h2>Join In!</h2>
+            <label for="fname">First Name:</label>
+            <input id="fname" type="text" name="firstname" required>
+            <label for="lname">Last Name:</label>
+            <input id="lname" type="text" name="lastname" required>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" required>
+            <br>
+            <label for="PC">PC</label>
+            <input id="PC" name="console" value="PC" type="radio">
+            <br>
+            <label for="PS">PS</label>
+            <input id="PS" name="console" value="PS" type="radio">
+            <br>
+            <label for="Xbox">Xbox</label>
+            <input id="Xbox" name="console" value="Xbox" type="radio">
+            <br>
+            <input id="submit" type="submit" value="Submit">
+        </form>
     </section>
     <footer>
         <ul class="social-media">
