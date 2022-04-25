@@ -337,6 +337,13 @@ footer {
     hr {
         display: none;
     }
+
+    #games > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -382,4 +389,49 @@ footer {
         font-size: 20px;
         padding-top: 10px;
     }
+
+    #photos {
+        column-count: 2;  
+    }
+
+    #sign-up {
+        float: right;
+    }
+}
+
+/* For medium screen sizes from 320px wide and down */
+
+#logo {
+    font-size: 180%;
+}
+
+#center-header-main {
+    image: no-display;
+}
+
+#times {
+    height: 150px;
+}
+
+#times > div > h2 {
+    font-size: 30px;
+}
+
+#times > div > P {
+    font-size: 15px;
+}
+
+.social-media {
+    font-size: 75%;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer {
+    height: 50px;
+}
+
+#sign-up {
+    bottom: 300px;
+    right: 20px;
 }
