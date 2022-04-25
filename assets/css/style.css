@@ -338,6 +338,10 @@ footer {
         display: none;
     }
 
+    #games {
+        margin-left: 0px;
+    }
+
     #games > div {
         width: 100%;
         clear: both;
@@ -394,19 +398,12 @@ footer {
         column-count: 2;  
     }
 
-    #sign-up {
-        float: right;
-    }
 }
 
-/* For medium screen sizes from 320px wide and down */
-
+/* For small screen sizes from 360px wide and down */
+@media screen and (max-width: 360px){
 #logo {
     font-size: 180%;
-}
-
-#center-header-main {
-    image: no-display;
 }
 
 #times {
@@ -414,7 +411,7 @@ footer {
 }
 
 #times > div > h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #times > div > P {
@@ -427,11 +424,13 @@ footer {
     margin: 0px;
 }
 
+#sign-up {
+    right: 20px;
+    bottom: 300px;
+}
+
 footer {
     height: 50px;
 }
 
-#sign-up {
-    bottom: 300px;
-    right: 20px;
 }
