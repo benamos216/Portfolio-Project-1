@@ -120,7 +120,7 @@ h1, h2 {
 }
 
 .left-header {
-    float: center;
+    float: left;
     margin: 30px;
     text-align: right;
 }
@@ -131,7 +131,7 @@ h1, h2 {
 }
 
 .right-header {
-    float: center;
+    float: left;
     margin: 30px;
 }
 
