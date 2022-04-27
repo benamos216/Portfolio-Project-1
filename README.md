@@ -73,13 +73,24 @@ Join In form has been checked to ensure all data that is required has been enter
 ![Sign up error](https://benamos216.github.io/Portfolio-Project-1/assets/images/error.jpg)
 
 Also used Lighthouse to check the overall performance of the site. With scores as follows:
-    -
+    - 73 - Performance
+    - 92 - Accessibility
+    - 100 - Best Practices
+    - 100 - SEO
+
+![Lighthouse Performance](https://benamos216.github.io/Portfolio-Project-1/assets/images/performance.jpg)
 ### Validator Testing
 
 - HTML
-    -
+    - No errors were returned when passed through the official https://validator.w3.org/
 - CSS
-    -
+    - No errors were returned when passed through the official https://jigsaw.w3.org/css-validator/
+
+## Bugs
+
+When loaded to Github, main sign up form became disorientated.
+Restyled with in CSS to adjust.
+Saved and refreshed, and all corrected.
 
 ## Unfixed Bugs
 
@@ -95,5 +106,8 @@ The live link can be found here - https://benamos216.github.io/Portfolio-Project
 
 ## Credits
 
+Code for "About us"was adapted from CI Love Running Project
+
 ## Media
 
+Image were taken from http://www.pexels.com
