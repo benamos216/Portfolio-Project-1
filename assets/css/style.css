@@ -301,14 +301,14 @@ footer {
         margin: 0;
     }
 
-    #left-header, #right-header {
+    #center-header-main {
         width: 100%;
-        float: left;
         padding: 0;
     }
 
-    #center-header {
-        width: 50%;
+    #left-header, #right-header {
+        width: 100%;
+        float: left;
         padding: 0;
     }
 
