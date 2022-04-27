@@ -413,6 +413,11 @@ footer {
         column-count: 2;  
     }
 
+    #sign-up {
+        right: 200px;
+        bottom: 300px;
+    }
+    
 }
 
 /* For small screen sizes from 360px wide and down */
