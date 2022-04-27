@@ -5,7 +5,7 @@
     padding: 0;
     border: none;
 }
-
+/* Stylings for all pages */
 body {
     font-family: Akshar, sans-serif;
     font-weight: 300;
@@ -19,6 +19,7 @@ h1, h2 {
     color: whitesmoke;
 }
 
+/* Main logo for site */
 #logo {
     float: left;
     font-size: 300%;
@@ -31,6 +32,7 @@ h1, h2 {
     color:#51b8c7
 }
 
+/* Navigation bar styling */
 #menu {
     font-size: 120%;
 }
@@ -59,6 +61,7 @@ h1, h2 {
     border-bottom: 1px solid #51b8c7;
 }
 
+/* Main Image */
 #main-image-container {
     height: 600px;
     width: 100%;
@@ -90,6 +93,7 @@ h1, h2 {
     text-decoration: underline;
 }
 
+/* About us Section */
 #about {
     height: 600px;
 }
@@ -161,6 +165,7 @@ hr {
     height: 100%;
 }
 
+/* Times section */
 #times div {
     color: whitesmoke;
     width: 20%;
@@ -182,6 +187,7 @@ hr {
     padding-top: 40px;
 }
 
+/* Footer and Social Media Links */
 footer {
     height: 150px;
 }
@@ -205,6 +211,7 @@ footer {
     color: #51b8c7;
 }
 
+/* Gallery */
 #photos {
     clear: both;
     line-height: 0;
@@ -216,6 +223,7 @@ footer {
     width: 100%;
 }
 
+/* Games Section */
 #games-header {
     text-align: center;
     text-decoration: underline;
@@ -238,6 +246,7 @@ footer {
     box-sizing: border-box;
 }
 
+/* Sign up Page Image */
 #join-image-container {
     height: 800px;
     width: 100%;
@@ -251,6 +260,7 @@ footer {
     background: url("../images/pexels-alena-darmel-7862491(1).jpg") no-repeat center;
 }
 
+/* Sign up Form */
 #sign-up > h2 {
     text-align: center;
     text-decoration: underline;

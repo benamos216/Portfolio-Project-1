@@ -73,12 +73,13 @@ Join In form has been checked to ensure all data that is required has been enter
 ![Sign up error](https://benamos216.github.io/Portfolio-Project-1/assets/images/error.jpg)
 
 Also used Lighthouse to check the overall performance of the site. With scores as follows:
-    - 73 - Performance
-    - 92 - Accessibility
+    - 92 - Performance
+    - 100 - Accessibility
     - 100 - Best Practices
     - 100 - SEO
 
 ![Lighthouse Performance](https://benamos216.github.io/Portfolio-Project-1/assets/images/performance.jpg)
+
 ### Validator Testing
 
 - HTML
