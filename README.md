@@ -1,108 +1,79 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Social Gaming Club
 
-Welcome benamos216,
+Social Gaming Club is a site for a community of like minded gamers based anywhere in the UK. Tha aim of the site is to allow its members to know when the majority of it's community will be online for them to play and interact with. It will also showcase some of the varieties of games that are played, and that it is a safe place for all abilities.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive display] (https://benamos216.github.io/Portfolio-Project-1/index.html/assets/images/responsivedisplay.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
 
-## Gitpod Reminders
+### Existing features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+__Navigation Bar__
 
-`python3 -m http.server`
+Featured on all three pages, the navigation bar has links to the Logo, Home Page, Gallery/Games & Join In pages. It is identical on all three pages for easy navigation for the user, and allows them to navigate without have to use the 'back' button.
 
-A blue button should appear to click: _Make Public_,
+__Landing page Image__
 
-Another blue button should appear to click: _Open Browser_.
+This is the main image that the user sees to grab their attention, it showcases what the site is about and who it would be applicable to.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+__About us__
 
-A blue button should appear to click: _Make Public_,
+Gives the user a brief overview of what the community is about, and how it could suit them.
 
-Another blue button should appear to click: _Open Browser_.
+__Times__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Showcases what game and when the community is likely to be online playing, and allows them to choose when they would like to participate.
 
-To log into the Heroku toolbelt CLI:
+Will be updated as games come in and out of fashion, to keep it current.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+__Social Media Links__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The footer has links to all the Social Media that is used, and will open a new tab for easy navigation. It also allows the user to keep connected via these links.
 
-------
+__Gallery__
 
-## Release History
+The Gallery allows the user to see a little bit of what the community is about, and how all are welcome.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+__Games__
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Updated with the current 'popular' games, with a breif description on them. Allows the user to keep up to date with the latest games that are being played.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+__Sign up__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+This page allows the user to sign up to join in with the community. They will be asked to submit their full name, email, and what platform they play their games on.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+__Features Left to Implement__
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Add a page with direct video playbacks of the communities recent games, and also any live streams that may be happening if any of the users choose to.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The site has been tested on Firefox and Chrome. On each web browser it was checked to see the overall responsiveness of the site from several screen widths (1200px, 950px & 360px). During this stage, it was noticed that some of the text in some sections i.e Times, would overlap and did not appear very clear.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+All navigation buttons, and main logo have all been checked to ensure the user is taken to the correct page via the links.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Join In form has been checked to ensure all data that is required has been entered correctly, if missing or incorrect the user will not be able to submit. Also an error message will appear informing the user of this.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Validator Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- HTML
+    -
+- CSS
+    -
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Unfixed Bugs
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Deployment
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+-    In the GitHub repository, navigate to the Settings tab
+-    Then select 'Pages' sub section for our Source
+-    From the drop-down box, assign branch to main
+-    Once selected, refreshed page for indication of successful deployment.
 
-------
+The live link can be found here - https://benamos216.github.io/Portfolio-Project-1/index.html
 
-## FAQ about the uptime script
+## Credits
 
-**Why have you added this script?**
+## Media
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
